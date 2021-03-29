@@ -1,0 +1,115 @@
+*
+	margin: 0
+	padding: 0
+
+.wrapper
+	background-color: #0077C3
+	height: 100%
+
+	&__head
+		background-color: #026AA7
+.cards
+	display: flex
+	flex-wrap: wrap
+	justify-content: space-around
+	align-items: flex-start
+
+	> div
+		width: 339px
+		min-height: 55px
+		background-color: #E5E5E5
+		border-radius: 5px
+
+.headOfCard
+	height: 55px
+	position: relative
+	text-align: center
+	font-family: Roboto
+	font-style: normal
+	font-weight: bold
+	font-size: 30px
+	line-height: 35px
+	color: #40506C
+
+.addButton
+	position: absolute
+	top: 6px
+	right: 6px
+	background-color: #4E97C2
+	height:41px
+	width: 41px
+	border-width: 0
+	border-radius: 4px
+	display: flex
+	justify-content: center
+
+	>p
+		position: absolute
+		top: -2px
+		width: 22px
+		height: 45px
+		font-family: Roboto
+		font-style: normal
+		font-weight: normal
+		font-size: 38px
+		line-height: 45px
+		color: #FFFFFF
+.task
+	//display: none
+	display: flex
+	flex-direction: column
+	align-items: flex-start
+	justify-content: space-around
+	margin: 0 10px 10px 10px
+	width: 319px
+	height: 135px
+	background: #FFFFFF
+	box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.2)
+	border-radius: 4px
+
+	&__tag
+		display: flex
+		margin-left: 16px
+
+		> div
+			width: 63px
+			height: 11px
+			border-radius: 14px
+			margin: 0 4px
+
+		&__green
+			background-color: #5DBF48
+
+		&__yellow
+			background-color: #F3D800
+
+		&__red
+			background-color: #ED5940
+
+		&__blue
+			background-color: #00C2E2
+
+	> input
+		margin-left: 16px
+		border: none
+
+	&__link
+		height: 16px
+		margin-left: 16px
+		font-family: Roboto
+		font-style: normal
+		font-weight: 500
+		font-size: 14px
+		line-height: 16px
+		color: #80878F
+
+	&__shedule
+		display: flex
+		flex-direction: row
+		align-items: center
+		padding: 5px
+		width: 86px
+		height: 34px
+		margin-left: 16px
+		background: #EC9488
+		border-radius: 5px
